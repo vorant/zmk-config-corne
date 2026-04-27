@@ -229,9 +229,9 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans     &trans       &mmv MOVE_UP     &trans     &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans       &mmv MOVE_DOWN   &trans     &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans       &mmv MOVE_LEFT   &trans     &trans     &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans       &mmv MOVE_UP     &trans     &trans     &trans  &trans  &trans          &trans
+&trans  &trans  &trans  &trans  &trans     &trans       &mmv MOVE_DOWN   &kp A      &trans     &trans  &trans  &trans          &trans
+&trans  &trans  &trans  &trans  &trans     &trans       &mmv MOVE_LEFT   &trans     &trans     &trans  &trans  &rgb_ug RGB_ON  &trans
                 &trans  &trans  &mkp LCLK  &mkp RCLK    &mmv MOVE_RIGHT  &mkp LCLK  &mkp RCLK  &trans
                                                         &to 0
             >;
