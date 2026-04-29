@@ -109,32 +109,32 @@
         };
 
         left_bkt {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&kp LS(LA(PERIOD))>;
             key-positions = <3 4>;
         };
 
         right_bkt {
-            bindings = <&kp RIGHT_BRACKET>;
+            bindings = <&kp LS(LA(SLASH))>;
             key-positions = <9 8>;
         };
 
         left_par {
-            bindings = <&kp LEFT_PARENTHESIS>;
+            bindings = <&kp NUMBER_9>;
             key-positions = <16 17>;
         };
 
         right_par {
-            bindings = <&kp RIGHT_PARENTHESIS>;
+            bindings = <&kp NUMBER_0>;
             key-positions = <21 22>;
         };
 
         left_brace {
-            bindings = <&kp LEFT_BRACE>;
+            bindings = <&kp LA(PERIOD)>;
             key-positions = <29 30>;
         };
 
         right_brace {
-            bindings = <&kp RIGHT_BRACE>;
+            bindings = <&kp LA(SLASH)>;
             key-positions = <34 35>;
         };
 
@@ -199,7 +199,7 @@
                                                                                         &trans
             >;
 
-            label = "Modify";
+            label = "Numbers";
         };
 
         Flash {
