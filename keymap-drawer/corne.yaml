@@ -25,7 +25,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: ':', s: ':'}
+  - {t: ;, h: RIGHT GUI, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Z
@@ -36,9 +36,9 @@ layers:
   - $$mdi:arrow-left-bold$$
   - N
   - {t: M, h: Alt+M}
-  - {t: ',', h: <, s: <}
-  - {t: ., h: '>'}
-  - {t: /, h: '?', s: '?'}
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Rgb, h: toggle}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:numeric$$'}
