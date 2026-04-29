@@ -190,11 +190,11 @@
 
         Symbol {
             bindings = <
-&trans  &trans        &kp N5     &kp NUMBER_3  &kp LS(LA(PERIOD))  &kp LS(LA(SLASH))    &trans  &kp SEMICOLON   &kp NUMBER_1                      &kp NUMBER_7                   &kp RA(GRAVE)         &kp LS(BACKSLASH)         &trans
-&trans  &kp NUMBER_2  &kp LA(O)  &kp LA(P)     &kp N9              &kp NUMBER_0         &trans  &kp MINUS       &hmr RIGHT_CONTROL RIGHT_BRACKET  &hmr RIGHT_SHIFT LEFT_BRACKET  &hmr RIGHT_ALT GRAVE  &hmr RIGHT_GUI BACKSLASH  &trans
-&trans  &kp NUMBER_6  &kp COMMA  &kp NUMBER_4  &kp LA(PERIOD)      &kp LA(SLASH)        &trans  &kp UNDERSCORE  &kp LS(RIGHT_BRACKET)             &kp LS(LEFT_BRACKET)           &kp LS(GRAVE)         &kp LA(BACKSLASH)         &trans
-                      &trans     &trans        &trans              &trans               &trans  &trans          &trans                            &trans
-                                                                                        &trans
+&none  &none  &kp NUMBER_3  &kp NUMBER_2  &none         &none     &trans  &kp SEMICOLON   &kp NUMBER_1                      &kp NUMBER_7                   &kp RA(GRAVE)         &kp LS(BACKSLASH)         &trans
+&none  &none  &kp NUMBER_6  &kp N5        &kp NUMBER_4  &none     &trans  &kp MINUS       &hmr RIGHT_CONTROL RIGHT_BRACKET  &hmr RIGHT_SHIFT LEFT_BRACKET  &hmr RIGHT_ALT GRAVE  &hmr RIGHT_GUI BACKSLASH  &trans
+&none  &none  &none         &none         &kp COMMA     &none     &trans  &kp UNDERSCORE  &kp LS(RIGHT_BRACKET)             &kp LS(LEFT_BRACKET)           &kp LS(GRAVE)         &kp LA(BACKSLASH)         &trans
+              &trans        &trans        &trans        &trans    &trans  &trans          &trans                            &trans
+                                                                  &trans
             >;
 
             label = "Symbol";
