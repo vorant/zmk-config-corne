@@ -107,10 +107,10 @@ layers:
   - '%'
   - {t: '$$mdi:transfer$$', type: trans}
   - +
-  - '!'
-  - '&'
+  - Sft+!
+  - Sft+&
   - {t: AltGr+`, s: AltGr+~}
-  - '|'
+  - {t: Sft+\, s: Sft+|}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-esc$$
@@ -123,7 +123,7 @@ layers:
   - {t: ']', h: '$$mdi:apple-keyboard-control$$', s: '}'}
   - {t: '[', h: '$$mdi:apple-keyboard-shift$$', s: '{'}
   - {t: '`', h: '$$mdi:apple-keyboard-option$$', s: '~'}
-  - {t: \, h: RIGHT GUI}
+  - {t: \, h: RIGHT GUI, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -136,7 +136,7 @@ layers:
   - {t: 'Sft+]', s: 'Sft+}'}
   - {t: 'Sft+[', s: 'Sft+{'}
   - {t: Sft+`, s: Sft+~}
-  - {t: Alt+/, s: 'Alt+?'}
+  - {t: Alt+\, s: Alt+|}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
