@@ -154,9 +154,9 @@
 
         Qwery {
             bindings = <
-&trans        &kp Q            &kp W            &kp E              &kp R                &as LA(T) T      &kp UP_ARROW     &kp Y          &kp U                 &as LA(I) I          &kp O                    &kp P                &trans
-&kp CAPSLOCK  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LEFT_CONTROL F  &kp G            &kp DOWN_ARROW   &kp H          &hmr RIGHT_CONTROL J  &hmr RIGHT_SHIFT K   &hmr RIGHT_ALT L         &as COLON SEMICOLON  &trans
-&trans        &kp Z            &kp X            &kp C              &kp V                &kp B            &kp LEFT_ARROW   &kp N          &as LA(M) M           &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH   &trans
+&trans        &kp Q            &kp W            &kp E              &kp R                &as LA(T) T      &kp UP_ARROW     &kp Y          &kp U                 &as LA(I) I         &kp O             &kp P                     &trans
+&kp CAPSLOCK  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LEFT_CONTROL F  &kp G            &kp DOWN_ARROW   &kp H          &hmr RIGHT_CONTROL J  &hmr RIGHT_SHIFT K  &hmr RIGHT_ALT L  &hmr RIGHT_GUI SEMICOLON  &trans
+&trans        &kp Z            &kp X            &kp C              &kp V                &kp B            &kp LEFT_ARROW   &kp N          &as LA(M) M           &kp COMMA           &kp DOT           &kp SLASH                 &trans
                                &to 5            &ltq 3 TAB         &kp SPACE            &ltq 1 DELETE    &kp RIGHT_ARROW  &kp BACKSPACE  &kp ENTER             &ltq 2 ESCAPE
                                                                                                          &to 6
             >;
