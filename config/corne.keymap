@@ -167,10 +167,10 @@
 
         Navi {
             bindings = <
-&trans  &trans        &trans        &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &kp C_BRIGHTNESS_INC   &trans          &kp UP_ARROW    &trans           &trans  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans        &trans        &kp END           &kp PAGE_DOWN   &kp K_MUTE           &trans  &kp C_BRIGHTNESS_AUTO  &trans          &trans          &trans           &trans  &trans
-                      &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans
+&trans  &trans        &trans        &bt BT_SEL 1    &bt BT_SEL 0      &kp C_VOLUME_UP      &trans  &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp PG_UP      &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp C_VOLUME_DOWN    &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
+&trans  &trans        &trans        &trans          &trans            &kp K_MUTE           &trans  &trans  &trans          &trans          &trans           &trans         &trans
+                      &trans        &trans          &trans            &trans               &trans  &trans  &trans          &trans
                                                                                            &trans
             >;
 
@@ -180,7 +180,7 @@
 
         Symbol {
             bindings = <
-&trans  &kp EXCLAMATION  &kp LS(PERCENT)  &kp HASH        &kp LS(LA(PERIOD))        &kp LS(LA(SLASH))            &trans  &kp PLUS   &kp LS(EXCLAMATION)               &kp LS(AMPERSAND)              &kp RA(GRAVE)         &kp LS(BACKSLASH)         &trans
+&trans  &kp SEMICOLON    &kp LS(PERCENT)  &kp HASH        &kp LS(LA(PERIOD))        &kp LS(LA(SLASH))            &trans  &kp PLUS   &kp LS(EXCLAMATION)               &kp LS(AMPERSAND)              &kp RA(GRAVE)         &kp LS(BACKSLASH)         &trans
 &trans  &kp LS(AT_SIGN)  &kp LA(O)        &kp LA(P)       &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)    &trans  &kp MINUS  &hmr RIGHT_CONTROL RIGHT_BRACKET  &hmr RIGHT_SHIFT LEFT_BRACKET  &hmr RIGHT_ALT GRAVE  &hmr RIGHT_GUI BACKSLASH  &trans
 &trans  &kp CARET        &kp COMMA        &kp LS(DOLLAR)  &kp LA(PERIOD)            &kp LA(SLASH)                &trans  &kp EQUAL  &kp LS(RIGHT_BRACKET)             &kp LS(LEFT_BRACKET)           &kp LS(GRAVE)         &kp LA(BACKSLASH)         &trans
                          &trans           &trans          &trans                    &trans                       &trans  &trans     &trans                            &trans
@@ -190,13 +190,13 @@
             label = "Symbol";
         };
 
-        Modify {
+        Numbers {
             bindings = <
-&kp LG(Q)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5        &trans  &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0   &trans
-&trans     &kp LG(A)     &kp LG(S)     &kp LG(D)     &kp LG(F)     &kp LEFT_BRACKET    &trans  &kp RIGHT_BRACKET  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
-&trans     &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)     &kp LEFT_BRACE      &trans  &kp RIGHT_BRACE    &kp F1           &kp F2             &kp F3         &kp F4         &trans
-                         &trans        &trans        &trans        &trans              &trans  &trans             &trans           &trans
-                                                                                       &trans
+&trans  &trans        &trans        &trans          &trans            &trans    &trans  &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(ASTERISK)  &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans    &trans  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NUMBER_0      &trans
+&trans  &trans        &trans        &trans          &trans            &trans    &trans  &kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSLASH     &trans
+                      &trans        &trans          &trans            &trans    &trans  &trans     &trans        &trans
+                                                                                &trans
             >;
 
             label = "Modify";
