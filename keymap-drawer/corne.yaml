@@ -42,7 +42,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Rgb, h: toggle}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:numeric$$'}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
