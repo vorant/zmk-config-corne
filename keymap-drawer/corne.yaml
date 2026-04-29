@@ -106,11 +106,11 @@ layers:
   - $
   - '%'
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
+  - +
+  - '!'
   - '&'
-  - '*'
-  - (
-  - )
+  - {t: AltGr+`, s: AltGr+~}
+  - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-esc$$
@@ -122,8 +122,8 @@ layers:
   - {t: '-', s: _}
   - {t: ']', h: '$$mdi:apple-keyboard-control$$', s: '}'}
   - {t: '[', h: '$$mdi:apple-keyboard-shift$$', s: '{'}
-  - {t: '''', h: '$$mdi:apple-keyboard-option$$', s: '"'}
-  - {t: ']', h: RIGHT GUI, s: '}'}
+  - {t: '`', h: '$$mdi:apple-keyboard-option$$', s: '~'}
+  - {t: \, h: RIGHT GUI}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -132,11 +132,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
-  - {t: '=', h: +, s: +}
-  - {t: '''', h: '"', s: '"'}
-  - {t: \, h: '|', s: '|'}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '=', s: +}
+  - {t: 'Sft+]', s: 'Sft+}'}
+  - {t: 'Sft+[', s: 'Sft+{'}
+  - {t: Sft+`, s: Sft+~}
+  - {t: Alt+/, s: 'Alt+?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
