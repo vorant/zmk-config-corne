@@ -100,13 +100,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   Symbol:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ;, s: ':'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '5', s: '%'}
   - '3'
   - Sft+Alt+.
   - {t: Sft+Alt+/, s: 'Sft+Alt+?'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - +
+  - {t: ;, s: ':'}
   - '1'
   - '7'
   - {t: AltGr+`, s: AltGr+~}
@@ -132,7 +132,7 @@ layers:
   - Alt+.
   - {t: Alt+/, s: 'Alt+?'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '=', s: +}
+  - _
   - {t: 'Sft+]', s: 'Sft+}'}
   - {t: 'Sft+[', s: 'Sft+{'}
   - {t: Sft+`, s: Sft+~}
