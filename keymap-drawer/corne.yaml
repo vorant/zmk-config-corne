@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  Modify:
+  Numbers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -347,17 +347,17 @@ combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
 - p: [3, 4]
-  k: {t: '[', s: '{'}
+  k: Sft+Alt+.
 - p: [9, 8]
-  k: {t: ']', s: '}'}
+  k: Sft+Alt+/
 - p: [16, 17]
-  k: (
+  k: '9'
 - p: [21, 22]
-  k: )
+  k: '0'
 - p: [29, 30]
-  k: '{'
+  k: Alt+.
 - p: [34, 35]
-  k: '}'
+  k: Alt+/
 - p: [5, 7]
   k: {t: \, s: '|'}
 - p: [18, 20]
