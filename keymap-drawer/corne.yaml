@@ -101,10 +101,10 @@ layers:
   Symbol:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
-  - '@'
+  - Sft+%
   - '#'
-  - $
-  - '%'
+  - Sft+Alt+.
+  - {t: Sft+Alt+/, s: 'Sft+Alt+?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - +
   - Sft+!
@@ -113,11 +113,11 @@ layers:
   - {t: Sft+\, s: Sft+|}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-esc$$
-  - $$mdi:apple-keyboard-caps$$
-  - HOME
-  - END
-  - _
+  - Sft+@
+  - Alt+O
+  - Alt+P
+  - Sft+(
+  - Sft+)
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - {t: ']', h: '$$mdi:apple-keyboard-control$$', s: '}'}
@@ -126,11 +126,11 @@ layers:
   - {t: \, h: RIGHT GUI, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
+  - ^
+  - {t: ',', s: <}
+  - Sft+$
+  - Alt+.
+  - {t: Alt+/, s: 'Alt+?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
   - {t: 'Sft+]', s: 'Sft+}'}
