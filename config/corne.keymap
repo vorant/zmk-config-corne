@@ -147,6 +147,16 @@
             bindings = <&kp PIPE>;
             key-positions = <18 20>;
         };
+
+        less {
+            bindings = <&kp LA(O)>;
+            key-positions = <16 17 23>;
+        };
+
+        more {
+            bindings = <&kp LA(P)>;
+            key-positions = <21 22 15>;
+        };
     };
 
     keymap {
