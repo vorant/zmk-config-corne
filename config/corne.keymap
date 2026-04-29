@@ -154,11 +154,11 @@
 
         Qwery {
             bindings = <
-&trans  &kp Q            &kp W            &kp E              &kp R                &as T LA(T)      &kp UP_ARROW     &kp Y             &kp U                 &as I LA(I)          &kp O                    &kp P                &trans
-&trans  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LEFT_CONTROL F  &kp G            &kp DOWN_ARROW   &kp H             &hmr RIGHT_CONTROL J  &hmr RIGHT_SHIFT K   &hmr RIGHT_ALT L         &as COLON SEMICOLON  &trans
-&trans  &kp Z            &kp X            &kp C              &kp V                &kp B            &kp LEFT_ARROW   &kp N             &as M LA(M)           &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH   &trans
-                         &to 5            &ltq 3 TAB         &ltq 3 SPACE         &ltq 1 DELETE    &kp RIGHT_ARROW  &ltq 2 BACKSPACE  &ltq 3 ENTER          &ltq 2 ESCAPE
-                                                                                                   &to 6
+&trans        &kp Q            &kp W            &kp E              &kp R                &as LA(T) T      &kp UP_ARROW     &kp Y          &kp U                 &as LA(I) I          &kp O                    &kp P                &trans
+&kp CAPSLOCK  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LEFT_CONTROL F  &kp G            &kp DOWN_ARROW   &kp H          &hmr RIGHT_CONTROL J  &hmr RIGHT_SHIFT K   &hmr RIGHT_ALT L         &as COLON SEMICOLON  &trans
+&trans        &kp Z            &kp X            &kp C              &kp V                &kp B            &kp LEFT_ARROW   &kp N          &as LA(M) M           &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH   &trans
+                               &to 5            &ltq 3 TAB         &kp SPACE            &ltq 1 DELETE    &kp RIGHT_ARROW  &kp BACKSPACE  &kp ENTER             &ltq 2 ESCAPE
+                                                                                                         &to 6
             >;
 
             label = "Qwery";
@@ -180,7 +180,7 @@
 
         Symbol {
             bindings = <
-&trans  &kp SEMICOLON  &kp N5     &kp NUMBER_3  &kp LS(LA(PERIOD))  &kp LS(LA(SLASH))    &trans  &kp PLUS   &kp NUMBER_1                      &kp NUMBER_2                   &kp RA(GRAVE)         &kp LS(BACKSLASH)         &trans
+&trans  &kp SEMICOLON  &kp N5     &kp NUMBER_3  &kp LS(LA(PERIOD))  &kp LS(LA(SLASH))    &trans  &kp PLUS   &kp NUMBER_1                      &kp NUMBER_7                   &kp RA(GRAVE)         &kp LS(BACKSLASH)         &trans
 &trans  &kp NUMBER_2   &kp LA(O)  &kp LA(P)     &kp N9              &kp NUMBER_0         &trans  &kp MINUS  &hmr RIGHT_CONTROL RIGHT_BRACKET  &hmr RIGHT_SHIFT LEFT_BRACKET  &hmr RIGHT_ALT GRAVE  &hmr RIGHT_GUI BACKSLASH  &trans
 &trans  &kp NUMBER_6   &kp COMMA  &kp NUMBER_4  &kp LA(PERIOD)      &kp LA(SLASH)        &trans  &kp EQUAL  &kp LS(RIGHT_BRACKET)             &kp LS(LEFT_BRACKET)           &kp LS(GRAVE)         &kp LA(BACKSLASH)         &trans
                        &trans     &trans        &trans              &trans               &trans  &trans     &trans                            &trans
@@ -192,9 +192,9 @@
 
         Numbers {
             bindings = <
-&trans  &trans        &trans        &trans          &trans            &trans            &trans  &kp PLUS   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(ASTERISK)  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp KP_NUMLOCK    &trans  &kp MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0   &trans
-&trans  &trans        &trans        &trans          &trans            &trans            &trans  &kp EQUAL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp BACKSLASH     &trans
+&trans  &trans        &trans        &trans          &trans            &trans            &trans  &kp PLUS   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp NUMBER_8     &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp KP_NUMLOCK    &trans  &kp MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0  &trans
+&trans  &trans        &trans        &trans          &trans            &trans            &trans  &kp EQUAL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp BACKSLASH    &trans
                       &trans        &trans          &trans            &trans            &trans  &trans     &trans           &trans
                                                                                         &trans
             >;
