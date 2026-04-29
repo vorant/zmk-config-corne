@@ -6,11 +6,11 @@ layers:
   - W
   - E
   - R
-  - {t: T, h: Alt+T}
+  - T
   - $$mdi:arrow-up-bold$$
   - Y
   - U
-  - {t: I, h: Alt+I}
+  - I
   - O
   - P
   - {t: '$$mdi:transfer$$', type: trans}
@@ -35,7 +35,7 @@ layers:
   - B
   - $$mdi:arrow-left-bold$$
   - N
-  - {t: M, h: Alt+M}
+  - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
