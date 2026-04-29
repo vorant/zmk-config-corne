@@ -180,9 +180,9 @@
 
         Symbol {
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH  &kp DOLLAR  &kp PERCENT       &trans  &kp PLUS   &kp EXCLAMATION                   &kp AMPERSAND                  &kp RA(GRAVE)         &kp PIPE                         &trans
-&trans  &kp ESCAPE       &kp CAPSLOCK  &kp HOME  &kp END     &kp UNDERSCORE    &trans  &kp MINUS  &hmr RIGHT_CONTROL RIGHT_BRACKET  &hmr RIGHT_SHIFT LEFT_BRACKET  &hmr RIGHT_ALT GRAVE  &hmr RIGHT_GUI NON_US_BACKSLASH  &trans
-&trans  &kp BACKSPACE    &trans        &trans    &trans      &kp TILDE         &trans  &kp EQUAL  &kp LS(RIGHT_BRACKET)             &kp LS(LEFT_BRACKET)           &kp LS(GRAVE)         &kp LA(SLASH)                    &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH  &kp DOLLAR  &kp PERCENT       &trans  &kp PLUS   &kp LS(EXCLAMATION)               &kp LS(AMPERSAND)              &kp RA(GRAVE)         &kp LS(BACKSLASH)         &trans
+&trans  &kp ESCAPE       &kp CAPSLOCK  &kp HOME  &kp END     &kp UNDERSCORE    &trans  &kp MINUS  &hmr RIGHT_CONTROL RIGHT_BRACKET  &hmr RIGHT_SHIFT LEFT_BRACKET  &hmr RIGHT_ALT GRAVE  &hmr RIGHT_GUI BACKSLASH  &trans
+&trans  &kp BACKSPACE    &trans        &trans    &trans      &kp TILDE         &trans  &kp EQUAL  &kp LS(RIGHT_BRACKET)             &kp LS(LEFT_BRACKET)           &kp LS(GRAVE)         &kp LA(BACKSLASH)         &trans
                          &trans        &trans    &trans      &trans            &trans  &trans     &trans                            &trans
                                                                                &trans
             >;
