@@ -1,20 +1,20 @@
 layout: {zmk_keyboard: corne}
 layers:
   Qwery:
-  - {t: '`', h: '~', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Q
   - W
   - E
   - R
-  - T
+  - {t: Alt+T, h: T}
   - $$mdi:arrow-up-bold$$
   - Y
   - U
-  - I
+  - {t: Alt+I, h: I}
   - O
   - P
-  - {t: '=', h: +, s: +}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -26,8 +26,8 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: ':', s: ':'}
-  - {t: '''', h: '"', s: '"'}
-  - {t: Qwery, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Z
   - X
   - C
@@ -35,15 +35,15 @@ layers:
   - B
   - $$mdi:arrow-left-bold$$
   - N
-  - M
+  - {t: Alt+M, h: M}
   - {t: ',', h: <, s: <}
   - {t: ., h: '>'}
   - {t: /, h: '?', s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: Rgb, h: toggle}
-  - {t: '$$mdi:keyboard-tab$$', h: Navi}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:numeric$$'}
   - {t: '$$mdi:keyboard-space$$', h: Modify}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:navigation-variant$$'}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', h: Symbol}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:numeric$$'}
@@ -90,7 +90,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -101,23 +101,23 @@ layers:
   Symbol:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ;, s: ':'}
-  - Sft+%
-  - '#'
+  - {t: '5', s: '%'}
+  - '3'
   - Sft+Alt+.
   - {t: Sft+Alt+/, s: 'Sft+Alt+?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - +
-  - Sft+!
-  - Sft+&
+  - '1'
+  - '2'
   - {t: AltGr+`, s: AltGr+~}
   - {t: Sft+\, s: Sft+|}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+@
+  - '2'
   - Alt+O
   - Alt+P
-  - Sft+(
-  - Sft+)
+  - {t: '9', s: (}
+  - '0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - {t: ']', h: '$$mdi:apple-keyboard-control$$', s: '}'}
@@ -126,9 +126,9 @@ layers:
   - {t: \, h: RIGHT GUI, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - ^
+  - '6'
   - {t: ',', s: <}
-  - Sft+$
+  - '4'
   - Alt+.
   - {t: Alt+/, s: 'Alt+?'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -141,9 +141,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -156,9 +156,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - +
-  - '1'
-  - '2'
-  - '3'
+  - KP 1
+  - KP 2
+  - KP 3
   - Sft+*
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -166,13 +166,13 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP NUMLOCK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
-  - '4'
-  - {t: '5', s: '%'}
-  - '6'
-  - '0'
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP 0
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -182,9 +182,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
-  - '7'
-  - '8'
-  - '9'
+  - KP 7
+  - KP 8
+  - KP 9
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -239,7 +239,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
