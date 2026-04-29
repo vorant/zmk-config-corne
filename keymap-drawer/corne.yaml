@@ -6,15 +6,15 @@ layers:
   - W
   - E
   - R
-  - {t: Alt+T, h: T}
+  - {t: T, h: Alt+T}
   - $$mdi:arrow-up-bold$$
   - Y
   - U
-  - {t: Alt+I, h: I}
+  - {t: I, h: Alt+I}
   - O
   - P
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -35,18 +35,18 @@ layers:
   - B
   - $$mdi:arrow-left-bold$$
   - N
-  - {t: Alt+M, h: M}
+  - {t: M, h: Alt+M}
   - {t: ',', h: <, s: <}
   - {t: ., h: '>'}
   - {t: /, h: '?', s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Rgb, h: toggle}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:numeric$$'}
-  - {t: '$$mdi:keyboard-space$$', h: Modify}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:navigation-variant$$'}
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:backspace$$', h: Symbol}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:numeric$$'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-esc$$', h: Symbol}
   - {t: Mouse, h: toggle}
   Navi:
@@ -108,7 +108,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - +
   - '1'
-  - '2'
+  - '7'
   - {t: AltGr+`, s: AltGr+~}
   - {t: Sft+\, s: Sft+|}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -143,9 +143,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Modify:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -159,7 +159,7 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - Sft+*
+  - '8'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
@@ -189,7 +189,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -238,10 +238,10 @@ layers:
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
