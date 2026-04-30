@@ -110,32 +110,32 @@
 
         left_bkt {
             bindings = <&kp LS(LA(PERIOD))>;
-            key-positions = <3 4>;
+            key-positions = <4 5>;
         };
 
         right_bkt {
             bindings = <&kp LS(LA(SLASH))>;
-            key-positions = <9 8>;
+            key-positions = <8 7>;
         };
 
         left_par {
             bindings = <&kp NUMBER_9>;
-            key-positions = <16 17>;
+            key-positions = <17 18>;
         };
 
         right_par {
             bindings = <&kp NUMBER_0>;
-            key-positions = <21 22>;
+            key-positions = <21 20>;
         };
 
         left_brace {
             bindings = <&kp LA(PERIOD)>;
-            key-positions = <29 30>;
+            key-positions = <30 31>;
         };
 
         right_brace {
             bindings = <&kp LA(SLASH)>;
-            key-positions = <34 35>;
+            key-positions = <34 33>;
         };
 
         bac {
@@ -150,12 +150,12 @@
 
         less {
             bindings = <&kp LA(O)>;
-            key-positions = <16 17 23>;
+            key-positions = <2 3 4>;
         };
 
         more {
             bindings = <&kp LA(P)>;
-            key-positions = <21 22 15>;
+            key-positions = <8 9 10>;
         };
     };
 
