@@ -347,22 +347,22 @@ combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
 - p: [4, 5]
-  k: Sft+Alt+.
+  k: AltGr+Sft+.
 - p: [8, 7]
-  k: Sft+Alt+/
+  k: AltGr+Sft+/
 - p: [17, 18]
   k: '9'
 - p: [21, 20]
   k: '0'
 - p: [30, 31]
-  k: Alt+.
+  k: AltGr+.
 - p: [34, 33]
-  k: Alt+/
+  k: AltGr+/
 - p: [5, 7]
   k: {t: \, s: '|'}
 - p: [18, 20]
   k: '|'
 - p: [2, 3, 4]
-  k: Alt+O
+  k: AltGr+O
 - p: [8, 9, 10]
-  k: Alt+P
+  k: AltGr+P
