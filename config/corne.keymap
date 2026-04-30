@@ -177,7 +177,7 @@
 
         Navi {
             bindings = <
-&trans  &trans        &trans        &bt BT_SEL 1    &bt BT_SEL 0      &kp C_VOLUME_UP      &trans  &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp PG_UP      &trans
+&trans  &trans        &trans        &trans          &trans            &kp C_VOLUME_UP      &trans  &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp PG_UP      &trans
 &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp C_VOLUME_DOWN    &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
 &trans  &trans        &trans        &trans          &trans            &kp K_MUTE           &trans  &trans  &trans          &trans          &trans           &trans         &trans
                       &trans        &trans          &trans            &trans               &trans  &trans  &trans          &trans
@@ -255,7 +255,7 @@
         compatible = "zmk,conditional-layers";
 
         Flash {
-            if-layers = <3 2>;
+            if-layers = <3 1>;
             then-layer = <4>;
         };
     };
