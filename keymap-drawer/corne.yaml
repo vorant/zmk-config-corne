@@ -46,7 +46,7 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: Flash}
   - {t: '$$mdi:keyboard-esc$$', h: Navi}
   - {t: Mouse, h: toggle}
   Navi:
@@ -242,8 +242,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   Rgb:
   - EP TOG
