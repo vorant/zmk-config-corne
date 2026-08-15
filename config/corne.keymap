@@ -103,16 +103,6 @@
     combos {
         compatible = "zmk,combos";
 
-        left_bkt {
-            bindings = <&kp LS(GREATER_THAN)>;
-            key-positions = <30 31>;
-        };
-
-        right_bkt {
-            bindings = <&kp LS(SLASH)>;
-            key-positions = <33 34>;
-        };
-
         left_par {
             bindings = <&kp NUMBER_9>;
             key-positions = <17 18>;
@@ -144,7 +134,7 @@
         };
 
         left_round_par {
-            bindings = <&kp GREATER_THAN>;
+            bindings = <&kp DOT>;
             key-positions = <30 29>;
         };
 
