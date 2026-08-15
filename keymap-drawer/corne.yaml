@@ -51,7 +51,7 @@ layers:
   - {t: Mouse, h: toggle}
   Symbol:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: \, s: '|'}
+  - {t: Sft+\, s: Sft+|}
   - {t: AltGr+`, s: AltGr+~}
   - '7'
   - '1'
@@ -64,7 +64,7 @@ layers:
   - '3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '5', s: '%'}
-  - {t: Sft+\, h: '$$mdi:apple-keyboard-command$$', s: Sft+|}
+  - {t: \, h: '$$mdi:apple-keyboard-command$$', s: '|'}
   - {t: '`', h: '$$mdi:apple-keyboard-option$$', s: '~'}
   - {t: '{', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '}', h: '$$mdi:apple-keyboard-control$$'}
