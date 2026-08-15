@@ -295,10 +295,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Qwery, h: toggle}
 combos:
-- p: [30, 31]
-  k: Sft+>
-- p: [33, 34]
-  k: Sft+/
 - p: [17, 18]
   k: '9'
 - p: [21, 20]
@@ -312,6 +308,6 @@ combos:
 - p: [8, 9]
   k: AltGr+P
 - p: [30, 29]
-  k: '>'
+  k: {t: ., s: '>'}
 - p: [34, 35]
   k: {t: /, s: '?'}
