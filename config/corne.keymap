@@ -124,12 +124,12 @@
         };
 
         left_brace {
-            bindings = <&kp GREATER_THAN>;
+            bindings = <&kp LS(GREATER_THAN)>;
             key-positions = <30 31>;
         };
 
         right_brace {
-            bindings = <&kp SLASH>;
+            bindings = <&kp LS(SLASH)>;
             key-positions = <34 33>;
         };
 
@@ -142,6 +142,16 @@
             bindings = <&kp RA(P)>;
             key-positions = <8 9>;
         };
+
+        left_round_par {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <30 29>;
+        };
+
+        right_round_par {
+            bindings = <&kp SLASH>;
+            key-positions = <34 35>;
+        };
     };
 
     keymap {
@@ -152,8 +162,8 @@
 &none  &kp Q            &kp W            &kp E              &kp R                &hmr RA(T) T                &kp UP_ARROW     &kp Y          &kp U                 &hmr RA(I) I        &kp O            &kp P                     &studio_unlock
 &none  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LEFT_CONTROL F  &kp G                       &kp DOWN_ARROW   &kp H          &hmr RIGHT_CONTROL J  &hmr RIGHT_SHIFT K  &hmr LEFT_ALT L  &hmr RIGHT_GUI SEMICOLON  &none
 &none  &kp Z            &kp X            &kp C              &kp V                &kp B                       &kp LEFT_ARROW   &kp N          &hmr LA(M) M          &kp COMMA           &kp DOT          &kp SLASH                 &none
-                        &to 5            &kp TAB            &mo 2                &hmr LEFT_CONTROL DELETE    &kp RIGHT_ARROW  &kp BACKSPACE  &mo 1                 &ltq 4 ESCAPE
-                                                                                                             &to 6
+                        &to 4            &kp TAB            &ltq 2 SPACE         &hmr LEFT_CONTROL DELETE    &kp RIGHT_ARROW  &kp BACKSPACE  &mo 1                 &kp ENTER
+                                                                                                             &to 5
             >;
 
             label = "Qwery";
@@ -162,10 +172,10 @@
 
         Symbol {
             bindings = <
-&none         &kp BACKSLASH                &kp RA(GRAVE)        &kp QUESTION                &kp EXCLAMATION                &kp SEMI          &trans  &kp PLUS   &kp LS(NUMBER_1)                 &kp LS(NUMBER_2)         &kp LS(NUMBER_3)             &kp LS(BACKSLASH)  &none
-&kp N5        &hml LEFT_GUI LS(BACKSLASH)  &hml LEFT_ALT GRAVE  &hml LEFT_SHIFT LEFT_BRACE  &hml LEFT_CONTROL RIGHT_BRACE  &kp AT_SIGN       &trans  &kp MINUS  &hmr RIGHT_CONTROL LS(NUMBER_4)  &hmr RIGHT_SHIFT LS(N5)  &hmr RIGHT_ALT LS(NUMBER_6)  &hmr RIGHT_GUI N0  &kp NUMBER_4
-&kp NUMBER_6  &kp RA(BACKSLASH)            &kp LS(GRAVE)        &kp LS(LEFT_BRACE)          &kp LS(RIGHT_BRACE)            &kp UNDERSCORE    &trans  &kp EQUAL  &kp LS(N7)                       &kp LS(N8)               &kp LS(N9)                   &kp LA(BACKSLASH)  &kp N7
-                                           &trans               &kp CAPS                    &kp ENTER                      &trans            &trans  &trans     &trans                           &trans
+&none         &kp BACKSLASH                &kp RA(GRAVE)        &kp NUMBER_7                &kp NUMBER_1                   &kp SEMI          &trans  &kp PLUS   &kp LS(NUMBER_1)                 &kp LS(NUMBER_2)         &kp LS(NUMBER_3)             &kp NUMBER_3           &none
+&kp N5        &hml LEFT_GUI LS(BACKSLASH)  &hml LEFT_ALT GRAVE  &hml LEFT_SHIFT LEFT_BRACE  &hml LEFT_CONTROL RIGHT_BRACE  &kp NUMBER_2      &trans  &kp MINUS  &hmr RIGHT_CONTROL LS(NUMBER_4)  &hmr RIGHT_SHIFT LS(N5)  &hmr RIGHT_ALT LS(NUMBER_6)  &hmr RIGHT_GUI LS(N0)  &kp NUMBER_4
+&kp NUMBER_6  &kp RA(BACKSLASH)            &kp LS(GRAVE)        &kp LS(LEFT_BRACE)          &kp LS(RIGHT_BRACE)            &kp UNDERSCORE    &trans  &kp EQUAL  &kp LS(N7)                       &kp LS(N8)               &kp LS(N9)                   &kp NUMBER_8           &kp COMMA
+                                           &trans               &kp CAPS                    &trans                         &kp ESCAPE        &trans  &trans     &trans                           &trans
                                                                                                                                              &trans
             >;
 
@@ -174,27 +184,15 @@
 
         Navi {
             bindings = <
-&trans  &trans        &trans        &trans          &trans            &kp C_VOLUME_UP      &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &none   &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp C_VOLUME_DOWN    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none   &trans
-&trans  &trans        &trans        &trans          &trans            &kp K_MUTE           &trans  &trans          &trans          &trans        &trans           &trans  &trans
-                      &trans        &trans          &trans            &trans               &trans  &trans          &trans          &trans
-                                                                                           &trans
+&trans  &kp F4            &kp F3            &kp F2              &kp F1                &kp C_VOLUME_UP      &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &none   &trans
+&trans  &hmr LEFT_GUI F8  &hmr LEFT_ALT F7  &hmr LEFT_SHIFT F6  &hmr LEFT_CONTROL F5  &kp C_VOLUME_DOWN    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none   &trans
+&trans  &kp F12           &kp F11           &kp F10             &kp F9                &kp K_MUTE           &trans  &trans          &trans          &trans        &trans           &trans  &trans
+                          &trans            &trans              &trans                &trans               &trans  &trans          &trans          &trans
+                                                                                                           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
             label = "Navi";
-        };
-
-        Numbers {
-            bindings = <
-&trans  &trans        &trans        &trans          &trans            &trans            &trans  &kp PLUS   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp NUMBER_8     &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp KP_NUMLOCK    &trans  &kp MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0  &trans
-&trans  &trans        &trans        &trans          &trans            &trans            &trans  &kp EQUAL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp BACKSLASH    &trans
-                      &trans        &trans          &trans            &trans            &trans  &trans     &trans           &trans
-                                                                                        &trans
-            >;
-
-            label = "Numbers";
         };
 
         Flash {
@@ -241,7 +239,7 @@
 
         flash {
             if-layers = <1 2>;
-            then-layer = <4>;
+            then-layer = <3>;
         };
     };
 };
