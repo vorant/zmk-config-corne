@@ -162,11 +162,11 @@
 
         Symbol {
             bindings = <
-&none         &kp LS(BACKSLASH)        &kp RA(GRAVE)        &kp NUMBER_7                &kp NUMBER_1                   &kp SEMI          &trans  &kp PLUS   &kp LS(NUMBER_1)                 &kp LS(NUMBER_2)         &kp LS(NUMBER_3)             &kp NUMBER_3           &none
-&kp N5        &hml LEFT_GUI BACKSLASH  &hml LEFT_ALT GRAVE  &hml LEFT_SHIFT LEFT_BRACE  &hml LEFT_CONTROL RIGHT_BRACE  &kp NUMBER_2      &trans  &kp MINUS  &hmr RIGHT_CONTROL LS(NUMBER_4)  &hmr RIGHT_SHIFT LS(N5)  &hmr RIGHT_ALT LS(NUMBER_6)  &hmr RIGHT_GUI LS(N0)  &kp NUMBER_4
-&kp NUMBER_6  &kp RA(BACKSLASH)        &kp LS(GRAVE)        &kp LS(LEFT_BRACE)          &kp LS(RIGHT_BRACE)            &kp UNDERSCORE    &trans  &kp EQUAL  &kp LS(N7)                       &kp LS(N8)               &kp LS(N9)                   &kp NUMBER_8           &kp COMMA
-                                       &trans               &kp CAPS                    &trans                         &kp DELETE        &trans  &trans     &trans                           &trans
-                                                                                                                                         &trans
+&none  &kp LS(BACKSLASH)        &kp RA(GRAVE)        &kp NUMBER_7                &kp NUMBER_1                   &kp SEMI          &trans  &kp PLUS   &kp LS(NUMBER_1)                 &kp LS(NUMBER_2)         &kp LS(NUMBER_3)             &none                  &none
+&none  &hml LEFT_GUI BACKSLASH  &hml LEFT_ALT GRAVE  &hml LEFT_SHIFT LEFT_BRACE  &hml LEFT_CONTROL RIGHT_BRACE  &kp NUMBER_2      &trans  &kp MINUS  &hmr RIGHT_CONTROL LS(NUMBER_4)  &hmr RIGHT_SHIFT LS(N5)  &hmr RIGHT_ALT LS(NUMBER_6)  &hmr RIGHT_GUI LS(N0)  &none
+&none  &kp RA(BACKSLASH)        &kp LS(GRAVE)        &kp LS(LEFT_BRACE)          &kp LS(RIGHT_BRACE)            &kp UNDERSCORE    &trans  &kp EQUAL  &kp LS(N7)                       &kp LS(N8)               &kp LS(N9)                   &kp RA(COMMA)          &none
+                                &trans               &kp CAPS                    &trans                         &kp DELETE        &trans  &trans     &trans                           &trans
+                                                                                                                                  &trans
             >;
 
             label = "Symbol";
