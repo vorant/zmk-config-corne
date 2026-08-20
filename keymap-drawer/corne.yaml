@@ -61,9 +61,9 @@ layers:
   - Sft+1
   - Sft+2
   - Sft+3
-  - '3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '5', s: '%'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: \, h: '$$mdi:apple-keyboard-command$$', s: '|'}
   - {t: '`', h: '$$mdi:apple-keyboard-option$$', s: '~'}
   - {t: '{', h: '$$mdi:apple-keyboard-shift$$'}
@@ -75,8 +75,8 @@ layers:
   - {t: Sft+5, h: '$$mdi:apple-keyboard-shift$$', s: Sft+%}
   - {t: Sft+6, h: '$$mdi:apple-keyboard-option$$'}
   - {t: Sft+0, h: RIGHT GUI, s: Sft+)}
-  - '4'
-  - '6'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: AltGr+\, s: AltGr+|}
   - {t: Sft+`, s: Sft+~}
   - Sft+{
@@ -87,8 +87,8 @@ layers:
   - {t: Sft+7, s: Sft+&}
   - {t: Sft+8, s: Sft+*}
   - {t: Sft+9, s: Sft+(}
-  - '8'
-  - {t: ',', s: <}
+  - {t: 'AltGr+,', s: AltGr+<}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
